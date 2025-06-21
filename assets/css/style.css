@@ -1503,8 +1503,7 @@ label {
     .header__top-menu ul li a:hover {
       color: #2E7D32; }
 
-.header__social {
-  line-height: 1; }
+
   @media (max-width: 767px) {
     .header__social {
       margin-bottom: 15px; } }
