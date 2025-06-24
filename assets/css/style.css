@@ -3197,3 +3197,12 @@ blockquote {
     object-fit: cover;
   }
 }
+
+.post__small-thumb img{
+  width: 355px;
+  height: 200px;
+}
+
+.postbox__thumb img{
+  height: 220px;
+}
