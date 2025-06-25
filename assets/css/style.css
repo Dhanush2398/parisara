@@ -370,8 +370,6 @@ label {
 .mb-15 {
   margin-bottom: 15px; }
 
-.mb-20 {
-  margin-bottom: 20px; }
 
 .mb-25 {
   margin-bottom: 25px; }
@@ -758,7 +756,7 @@ label {
   padding-top: 55px; }
 
 .pt-60 {
-  padding-top: 60px; }
+  padding-top: 10px; }
 
 .pt-65 {
   padding-top: 65px; }
@@ -788,7 +786,7 @@ label {
   padding-top: 105px; }
 
 .pt-110 {
-  padding-top: 110px; }
+  padding-top: 10px; }
 
 .pt-115 {
   padding-top: 115px; }
@@ -882,7 +880,7 @@ label {
   padding-bottom: 55px; }
 
 .pb-60 {
-  padding-bottom: 60px; }
+  padding-bottom: 10px; }
 
 .pb-65 {
   padding-bottom: 65px; }
@@ -900,7 +898,7 @@ label {
   padding-bottom: 85px; }
 
 .pb-90 {
-  padding-bottom: 90px; }
+  padding-bottom: 10px; }
 
 .pb-95 {
   padding-bottom: 95px; }
@@ -3206,3 +3204,39 @@ blockquote {
 .postbox__thumb img{
   height: 220px;
 }
+
+ 
+  .map-container {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  @media (max-width: 768px) {
+    .map-container {
+      height: 300px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .map-container {
+      height: 250px;
+    }
+  }
+
+  .map-section h2{
+    color: #2E7D32;
+    font-weight: 700;
+  }
