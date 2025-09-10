@@ -3215,3 +3215,14 @@ blockquote {
     color: #2E7D32;
     font-weight: 700;
   }
+
+
+
+
+  .postbox__thumb video {
+    width: 100%;
+    height: 210px; 
+    object-fit: contain;
+    border-radius: 8px; 
+    background: #000;
+}
