@@ -3224,7 +3224,7 @@ blockquote {
     background: #000;
 }
 .social-card {
-  border: 2px solid #e0e0e0; /* subtle border */
+  border: 2px solid #e0e0e0; 
   border-radius: 14px;
   overflow: hidden;
   transition: all 0.3s ease;
@@ -3238,7 +3238,7 @@ blockquote {
   justify-content: space-between;
 }
 
-/* Optional: gradient border effect */
+
 .social-card:hover {
   border: 2px solid transparent;
   background: linear-gradient(#fff, #fff) padding-box,
@@ -3287,3 +3287,55 @@ blockquote {
   border-radius: 8px; 
 }
 
+
+
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2E7D32;
+  padding-left: 12px;
+  margin-bottom: 25px;
+}
+
+
+.postbox {
+  border-radius: 15px;
+  overflow: hidden;
+  background: #2E7D32;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.postbox:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.postbox__thumb video {
+  border-bottom: 1px solid #eee;
+  height: 260px;
+  width: 100%;
+  object-fit: cover;
+  background: #000;
+}
+
+
+.postbox__text {
+  padding: 10px;
+  text-align: left;
+  height: 100px;
+}
+
+.postbox__text h4 a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.postbox__text h4 a:hover {
+  color: #fff;
+}
