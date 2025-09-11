@@ -3281,7 +3281,7 @@ blockquote {
 
 .post-thumb img {
   max-width: 100%;
-  height: auto;
+  height: 400px;
   display: block;
   border-radius: 8px; 
 }
